@@ -37,3 +37,5 @@ set tabstop=2
 
 colorscheme molokai
 
+set colorcolumn=80
+set nowrap
