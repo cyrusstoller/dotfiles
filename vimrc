@@ -40,3 +40,5 @@ colorscheme molokai
 set colorcolumn=80
 set nowrap
 
+" Using the system clipboard as the default register
+set clipboard=unnamed
