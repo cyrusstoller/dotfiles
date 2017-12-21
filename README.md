@@ -6,7 +6,17 @@ Here are some of the most basic dotfiles that I use. This repo is a work in prog
 
 **Coming soon**
 
-## Expectations
+### Vim
 
-- Vim version `8.x`+
+To install Vundler be sure to run:
+
+```bash
+$ git submodule update --remote
+```
+
+To install the vim plugins run:
+
+```vim
+:PluginUpdate
+```
 
