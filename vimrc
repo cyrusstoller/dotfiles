@@ -11,6 +11,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-markdown'
 Plugin 'kien/ctrlp.vim'
+Plugin 'posva/vim-vue'
 " Plugin 'tpope/vim-fugitive'
 " Plugin 'git://git.wincent.com/command-t.git'
 
@@ -38,3 +39,4 @@ colorscheme molokai
 
 set colorcolumn=80
 set nowrap
+
