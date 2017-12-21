@@ -8,7 +8,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'tomasr/molokai'
+Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-markdown'
 Plugin 'kien/ctrlp.vim'
 " Plugin 'tpope/vim-fugitive'
@@ -20,7 +20,6 @@ filetype plugin indent on    " required
 
 " Enable line numbers
 set number
-set relativenumber
 " Enable syntax highlighting
 syntax on
 
