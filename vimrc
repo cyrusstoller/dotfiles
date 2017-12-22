@@ -8,9 +8,10 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'tomasr/molokai'
+Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-markdown'
 Plugin 'kien/ctrlp.vim'
+Plugin 'posva/vim-vue'
 " Plugin 'tpope/vim-fugitive'
 " Plugin 'git://git.wincent.com/command-t.git'
 
@@ -20,7 +21,6 @@ filetype plugin indent on    " required
 
 " Enable line numbers
 set number
-set relativenumber
 " Enable syntax highlighting
 syntax on
 
@@ -41,3 +41,6 @@ colorscheme molokai
 
 set colorcolumn=80
 set nowrap
+
+" Using the system clipboard as the default register
+set clipboard=unnamed
