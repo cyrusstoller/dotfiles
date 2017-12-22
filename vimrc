@@ -37,6 +37,8 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+autocmd FileType markdown set textwidth=79
+
 colorscheme molokai
 
 set colorcolumn=80
