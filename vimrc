@@ -32,8 +32,10 @@ set hlsearch
 " Ignore case of searches
 set ignorecase
 
-" Make tabs as wide as two spaces
+" Make tabs as wide as two spaces and convert to spaces
 set tabstop=2
+set shiftwidth=2
+set expandtab
 
 colorscheme molokai
 
