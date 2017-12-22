@@ -46,3 +46,9 @@ set nowrap
 
 " Using the system clipboard as the default register
 set clipboard=unnamed
+
+" emacs navigation in insert mode
+inoremap <C-e> <esc>$a
+inoremap <C-a> <esc>0i
+" inoremap <C-u> <esc>ld0i
+" inoremap <C-k> <C-o>D
