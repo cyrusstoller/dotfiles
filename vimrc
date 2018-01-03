@@ -13,6 +13,8 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'kien/ctrlp.vim'
 Plugin 'posva/vim-vue'
 Plugin 'tpope/vim-surround'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 " Plugin 'tpope/vim-fugitive'
 " Plugin 'git://git.wincent.com/command-t.git'
 
