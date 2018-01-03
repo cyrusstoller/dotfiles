@@ -19,18 +19,16 @@ Plugin 'posva/vim-vue'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Enable line numbers
-set number
-" Enable syntax highlighting
-syntax on
+set number " Enable line numbers
+syntax on " Enable syntax highlighting
 
 " Show “invisible” characters
 " set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 " set list
-" Highlight searches
-set hlsearch
-" Ignore case of searches
-set ignorecase
+
+set hlsearch " Highlight searches
+set ignorecase " Ignore case of searches
+set smartcase
 
 " Make tabs as wide as two spaces and convert to spaces
 set tabstop=2
