@@ -12,6 +12,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-markdown'
 Plugin 'kien/ctrlp.vim'
 Plugin 'posva/vim-vue'
+Plugin 'tpope/vim-surround'
 " Plugin 'tpope/vim-fugitive'
 " Plugin 'git://git.wincent.com/command-t.git'
 
