@@ -43,11 +43,14 @@ set expandtab
 set bs=2
 
 autocmd FileType markdown set textwidth=79
+autocmd FileType markdown set nofoldenable
+let g:vim_markdown_frontmatter = 1
 
 colorscheme molokai
 
 set colorcolumn=80
 set nowrap
+set nojoinspaces
 
 " Using the system clipboard as the default register
 set clipboard=unnamed
