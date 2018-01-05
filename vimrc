@@ -27,6 +27,7 @@ filetype plugin indent on    " required
 
 set number " Enable line numbers
 syntax on " Enable syntax highlighting
+set cursorline
 
 " Show “invisible” characters
 " set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
