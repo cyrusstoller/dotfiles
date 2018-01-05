@@ -25,6 +25,9 @@ Plugin 'Quramy/tsuquyomi'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" To improve vim-airline performance
+let g:airline_extensions = ['wordcount']
+
 set number " Enable line numbers
 syntax on " Enable syntax highlighting
 set cursorline
