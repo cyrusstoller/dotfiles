@@ -37,6 +37,7 @@ set smartcase
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set bs=2
 
 autocmd FileType markdown set textwidth=79
 
