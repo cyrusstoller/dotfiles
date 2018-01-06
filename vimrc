@@ -9,12 +9,13 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'kien/ctrlp.vim'
-Plugin 'posva/vim-vue'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+" language support
+Plugin 'plasticboy/vim-markdown'
+Plugin 'posva/vim-vue'
 " typescript plugins
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Quramy/tsuquyomi'
