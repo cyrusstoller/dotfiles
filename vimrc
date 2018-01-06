@@ -15,6 +15,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " language support
 Plugin 'plasticboy/vim-markdown'
+Plugin 'pangloss/vim-javascript'
 Plugin 'posva/vim-vue'
 " typescript plugins
 Plugin 'leafgarland/typescript-vim'
