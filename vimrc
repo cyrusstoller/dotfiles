@@ -18,6 +18,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'pangloss/vim-javascript'
 Plugin 'posva/vim-vue'
+Plugin 'tpope/vim-rails'
+Plugin 'vim-ruby/vim-ruby'
 " typescript plugins
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Quramy/tsuquyomi'
