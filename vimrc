@@ -28,6 +28,8 @@ Plugin 'Quramy/tsuquyomi'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+let mapleader = ','
+
 " To improve vim-airline performance
 let g:airline_extensions = ['wordcount']
 
@@ -49,9 +51,15 @@ set shiftwidth=2
 set expandtab
 set bs=2
 
+" Markdown options
 autocmd FileType markdown set textwidth=79
 autocmd FileType markdown set nofoldenable
 let g:vim_markdown_frontmatter = 1
+
+"Typescript options
+let g:tsuquyomi_completion_detail = 1
+" let g:tsuquyomi_disable_quickfix = 1 " Because it slowed down saving a big project
+autocmd FileType typescript nmap <buffer> <Leader>t : <C-u>echo tsuquyomi#hint()<CR>
 
 colorscheme molokai
 
