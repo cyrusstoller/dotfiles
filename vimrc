@@ -71,6 +71,8 @@ set nojoinspaces
 
 " Using the system clipboard as the default register
 set clipboard=unnamed
+" Putting all swapfiles into a single directory
+set directory^=$HOME/.vim/tmp//
 
 " emacs navigation in insert mode
 inoremap <C-e> <esc>$a
