@@ -2,7 +2,6 @@ clisp
 erlang
 ghc
 git
-heroku
 htop
 nvm
 postgres
