@@ -1,9 +1,15 @@
+clisp
+erlang
+ghc
 git
+heroku
 htop
 nvm
 postgres
 rbenv
+redis
 sqlite
 tig
 tree
 wget
+youtube-dl
