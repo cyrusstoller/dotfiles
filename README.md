@@ -4,6 +4,9 @@ Here are some of the most basic dotfiles that I use. This repo is a work in prog
 
 ## Installation
 
+I recommend cloning this repository into `~/.dotfiles`, but it will function
+appropriately wherever you decide to store it.
+
 ### git
 
 Add default "Author Name" and "Email"
