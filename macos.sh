@@ -722,7 +722,9 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 # Address Book, Dashboard, iCal, TextEdit, and Disk Utility                   #
 ###############################################################################
 
-# Prefer full name to nicknames
+# Prefer full name to shortnames and nicknames
+defaults write NSGlobalDomain NSPersonNameDefaultShortNameEnabled -bool false
+defaults write NSGlobalDomain NSPersonNameDefaultShortNameFormat -bool false
 defaults write NSGlobalDomain NSPersonNameDefaultShouldPreferNicknamesPreference -bool false
 
 # Enable the debug menu in Address Book
