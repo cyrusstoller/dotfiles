@@ -12,7 +12,7 @@ appropriately wherever you decide to store it.
 Add default "Author Name" and "Email"
 
 ```bash
-cp gitconfig ~/.gitconfig
+cp preferences/gitconfig ~/.gitconfig
 ```
 
 Or do it manually
