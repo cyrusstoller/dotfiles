@@ -3,7 +3,7 @@
 BASEDIR="$( cd "$(dirname "$0")" ; pwd -P )"
 
 # Mac OS System Preferences
-$BASEDIR/macos.sh
+$BASEDIR/macos-preferences.sh
 
 # Place .zshrc and install oh-my-zsh
 $BASEDIR/install-zsh.sh
