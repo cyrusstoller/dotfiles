@@ -20,7 +20,7 @@ echo "Ensuring that the necessary brew packages are installed"
 echo "Installing Homebrew Packages"
 echo
 
-homebrew_package_list="$BASEDIR/homebrew/brewlist"
+homebrew_package_list="$BASEDIR/brewlist"
 while read brew_pkg
 do
     if brew ls --versions $brew_pkg 2> /dev/null; then
@@ -36,6 +36,7 @@ echo
 echo "Ensuring that all brew services are started"
 brew services start --all
 
+# Install heroku CLI
 if brew ls --versions heroku 2> /dev/null; then
     echo "Heroku CLI already installed"
 else
@@ -47,7 +48,7 @@ echo "Ensuring that the necessary brew cask packages are installed"
 echo "Installing Homebrew Cask Packages"
 echo
 
-homebrew_cask_list="$BASEDIR/homebrew/casklist"
+homebrew_cask_list="$BASEDIR/casklist"
 while read cask_pkg
 do
     if brew cask ls --versions $cask_pkg 2> /dev/null; then
@@ -58,4 +59,4 @@ do
     fi
 done < $homebrew_cask_list
 
-$BASEDIR/homebrew/install-sublime.sh
+$BASEDIR/install-sublime.sh
