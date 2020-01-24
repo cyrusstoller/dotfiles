@@ -26,6 +26,7 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'Quramy/tsuquyomi'
 " Plugin 'tpope/vim-fugitive'
 " Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'mattn/emmet-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
