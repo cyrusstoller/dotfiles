@@ -37,8 +37,10 @@ To install the vim plugins once vim has started:
 :PluginUpdate
 ```
 
-### Shell script order
+### Shell script 
 
 ```bash
-$ ./install.sh
+$ ./install-macos.sh
+# OR
+$ ./install-crostini.sh
 ```
