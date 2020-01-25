@@ -2,6 +2,7 @@ clisp
 erlang
 ghc
 git
+gsl
 htop
 nvm
 postgres
@@ -9,6 +10,7 @@ rbenv
 redis
 sqlite
 tig
+tmux
 tree
 wget
 youtube-dl
