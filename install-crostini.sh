@@ -16,6 +16,11 @@ $BASEDIR/apt/install-nvm.sh
 sudo apt install -y postgresql
 sudo apt install -y redis-server
 
+# To create a postgres ROLE
+# sudo su - postgres
+# psql -U postgres
+# CREATE ROLE name CREATEDB LOGIN;
+
 $BASEDIR/apt/install-heroku.sh
 
 # Place .zshrc and install oh-my-zsh
