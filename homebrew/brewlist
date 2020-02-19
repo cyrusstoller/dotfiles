@@ -9,6 +9,7 @@ postgres
 rbenv
 redis
 sqlite
+terminal-notifier
 tig
 tmux
 tree
