@@ -273,6 +273,9 @@ defaults write com.apple.finder ShowStatusBar -bool true
 # Finder: show path bar
 defaults write com.apple.finder ShowPathbar -bool true
 
+# Finder: spawn tab or window when opening a new folder
+defaults write com.apple.finder FinderSpawnTab -bool false
+
 # Display full POSIX path as Finder window title
 # defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
