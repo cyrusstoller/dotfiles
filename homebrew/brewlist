@@ -4,6 +4,7 @@ ghc
 git
 gsl
 htop
+imagemagick
 nvm
 postgres
 rbenv
