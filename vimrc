@@ -62,6 +62,7 @@ set bs=2
 autocmd FileType markdown set textwidth=79
 autocmd FileType markdown set nofoldenable
 let g:vim_markdown_frontmatter = 1
+let g:vim_markdown_new_list_item_indent = 2
 
 "Typescript options
 let g:tsuquyomi_completion_detail = 1
