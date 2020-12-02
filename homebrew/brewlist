@@ -7,6 +7,7 @@ htop
 imagemagick
 nvm
 postgres
+pyenv
 rbenv
 redis
 sqlite
