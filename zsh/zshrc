@@ -112,3 +112,4 @@ if [ -e "$(which brew)" ]; then
 else
   [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 fi
+export PATH="/usr/local/sbin:$PATH"

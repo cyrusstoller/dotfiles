@@ -8,6 +8,7 @@ fi
 # Place zshrc
 BASEDIR="$( cd "$(dirname "$0")" ; pwd -P )"
 ln -nfs $BASEDIR/zsh/zshrc $HOME/.zshrc
+ln -nfs $BASEDIR/zsh/zprofile $HOME/.zprofile
 
 # Make dir for nvm
 mkdir -p $HOME/.nvm
