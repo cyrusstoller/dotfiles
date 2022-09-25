@@ -106,7 +106,7 @@ unsetopt share_history
 
 # Based on NVM install from homebrew
 export NVM_DIR="$HOME/.nvm"
-if [ -e "$(which brew)" ]; then
+if command -v brew > /dev/null; then
   NVM_HOMEBREW="/usr/local/opt/nvm/nvm.sh"
   [ -s $NVM_HOMEBREW ] && . $NVM_HOMEBREW
 else
