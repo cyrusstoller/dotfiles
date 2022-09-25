@@ -7,6 +7,10 @@ Here are some of the most basic dotfiles that I use. This repo is a work in prog
 I recommend cloning this repository into `~/.dotfiles`, but it will function
 appropriately wherever you decide to store it.
 
+```bash
+$ git clone git@github.com:cyrusstoller/dotfiles.git ~/.dotfiles --recursive
+```
+
 ### git
 
 Add default "Author Name" and "Email"
