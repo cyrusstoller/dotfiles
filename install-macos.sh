@@ -13,3 +13,6 @@ $BASEDIR/homebrew/install-brew.sh
 
 # Place .vimrc and .vim directory
 $BASEDIR/install-vim.sh
+
+# Place tmux.conf
+$BASEDIR/install-tmux.sh
