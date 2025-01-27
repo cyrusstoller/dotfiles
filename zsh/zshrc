@@ -93,6 +93,8 @@ unsetopt share_history
 # fi
 export EDITOR='vim'
 
+unset zle_bracketed_paste
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
